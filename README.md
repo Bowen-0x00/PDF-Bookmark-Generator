@@ -2,7 +2,7 @@
 PDF-Bookmark-Generator 是一个 Python 工具，用于用目录信息为PDF文件生成书签。方便扫描版的 PDF 文件生成可跳转的书签，提升文档的可导航性和用户体验。这些目录信息可以从网上（数字图书馆、出版社或京东等渠道）或者OCR识别得到。
 
 # 用法
-`python add_bookmarks.py input.pdf toc.txt output.pdf --offset 0`
+`python PDF-Bookmark-Generator.py input.pdf toc.txt output.pdf --offset 0`
 
 - input.pdf 是输入的 PDF 文件路径。
 - toc.txt 是包含目录的文本文件路径。
